@@ -8,7 +8,7 @@ export const Content = (props) => {
 
     // Сортировка по айдишнику альбома
 
-    let selectName = 'Select album Id';
+    let selectName = 'Select album';
     let photosArray = props.photos;
     let selection = [];
 
