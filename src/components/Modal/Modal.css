@@ -1,0 +1,27 @@
+.modal{
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0, .2);
+    backdrop-filter: blur(10px);
+}
+
+.modal .modal-body{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    max-height: 100%;
+}
+
+.modal-body .modal-close{
+    position: absolute;
+    font-size: 3em;
+    color: grey;
+    cursor: pointer;
+}
+
+@media(max-width:670px){
+    .modal .modal-body img{
+        width: 70%;
+    }
+}
